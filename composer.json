@@ -1,0 +1,19 @@
+{
+  "name": "cevin/learn-php-composer-library",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Cevin\\LearnPhpComposerLibrary\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Cevin Albert Yonathan",
+      "email": "cevinalbertyonathan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
